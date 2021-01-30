@@ -1,39 +1,46 @@
 body {
-		margin: 0;
-		}
+	margin: 0;
+	/*box-sizing: border-box;*/
+	font-size: 16px;
+	font-family: Calibri Light;
+	}
 	
-		#container {width:1536px;
-        margin:0 auto;
-        padding:0;
-        background-image: url(kreska.png);
-		/*border-radius:4px 4px 4px 4px;*/
-		border-spacing: 0px;
-		border:1px solid yellow;
-		}
-		
-		#logo{
-		width:100%;
-		padding-top:80px;
-		padding-bottom:30px;
-        /**/
-		background-color: #000060;
-		height: 100px;
-		margin:0 auto;
-		align: center;
-		font-family: txt;
+#container {
+	width: 1200px; /*1536px*/
+	margin: 0 auto;
+	padding:0;
+	
+	background-image: url(kreska.png);
 
-		color: yellow;
-		font-size: 4em;
+	}
 		
-		box-shadow:0 0 0 0px;
-		}
+#logo{
+	width:100%;
+		
+	/*padding-top:80px;
+	padding-bottom:30px;*/
+		
 
-	/*	#menu{
-        color:#00F;
-        background-color:#FFF;
-        background-image:none;
-      }
-	  */
+	background-color: #000060;
+	height: 200px;
+	margin: 0 auto;
+	
+		
+
+	color: yellow;
+
+		
+	box-shadow:0 0 0 0px;
+	}
+	
+#logo > h1{
+	line-height: 200px;
+	font-size: 90px;
+	font-weight: normal;
+	margin: 0;
+	margin-left: 15px;
+}
+
 .option
 {
 	
@@ -41,12 +48,15 @@ body {
 	padding: 5px;
 	color: yellow;
 	float: left;
-	width: 220px;
+	width: 229.2px; 
 	/*height: 40px;*/
 	font-size: 18px;
 	border-right: 1px solid yellow;
-	font-family: txt;
-	background-image:linear-gradient( #000060 10%, #0000A0 90%);*/
+	background-image:linear-gradient( #000060 10%, #0000A0 90%);
+}
+
+#navbar>div:nth-last-child(1){
+	border-right: 0;
 }
 
 
@@ -57,17 +67,15 @@ body {
 	color: yellow;
 }
 		
-      /* wygl¹d elementu - ol */
+
       #menu {
-        
         margin:0 auto;
         padding:0;
-		/*display: inline-block;*/
+
       }
 
  
-/*( #240060 10%, #0000A0 90%) */
-      /* wygl¹d elementów - a - po najechaniu kursorem myszki na element - li */
+
       #menu > li:hover > a {
         color:#00F;
         background-color:#FFF;
