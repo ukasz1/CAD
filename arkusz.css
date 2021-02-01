@@ -49,7 +49,8 @@ body {
 	color: yellow;
 	float: left;
 	width: 229.2px; 
-	/*height: 40px;*/
+	height: 40px;
+	line-height: 40px;
 	font-size: 18px;
 	border-right: 1px solid yellow;
 	background-image:linear-gradient( #000060 10%, #0000A0 90%);
@@ -64,7 +65,7 @@ body {
 .option:hover {
 	background-image: none; /*konieczne jest rêczne kasowanie gradientu t³a*/
 	background-color: white;
-	color: yellow;
+	color: #000060;
 }
 		
 
